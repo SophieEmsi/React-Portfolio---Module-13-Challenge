@@ -1,9 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
 import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Navbar from './navbar';
+import Home from './home';
+import About from './About';
+import Experience from './Experience';
+import Portfolio from './Portfolio';
+import Contact from './Contact';
 
 const App = () => {
   return (
+    <Router>
+    <Navbar />
+    <Switch>
+      <Route exact path="/" component={Home} />
+      <Route path="/about" component={About} />
+      <Route path="/experience" component={Experience} />
+      <Route path="/portfolio" component={Portfolio} />
+      <Route path="/contact" component={Contact} />
+    </Switch>
+  </Router>
+);
+};
     <div style={{ display: 'flex', height: '100vh' }}>
       <div
         style={{
@@ -32,7 +51,7 @@ const App = () => {
         </div>
       </div>
     </div>
-  );
-};
+
+
 
 export default App;
