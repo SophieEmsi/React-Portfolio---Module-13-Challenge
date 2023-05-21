@@ -37,3 +37,30 @@
   }
 }
 
+.nav-link {
+  position: relative;
+  display: inline-block;
+  padding-left: 30px;
+  transition: 0.3s;
+  margin-left: 10px; /* Add a margin to create a gap */
+}
+
+.nav-link::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -10px; /* Adjust the value to create a gap */
+  transform: translateY(-50%);
+  width: 20px;
+  height: 10%;
+  background-color: black;
+  transition: width 0.3s;
+}
+
+.nav-link:hover {
+  padding-left: 50px; /* Adjust the value as needed */
+}
+
+.nav-link:hover::before {
+  width: 30px; /* Adjust the value as needed */
+}
