@@ -42,14 +42,14 @@
   display: inline-block;
   padding-left: 30px;
   transition: 0.3s;
-  margin-left: 10px; /* Add a margin to create a gap */
+  margin-left: 10px; 
 }
 
 .nav-link::before {
   content: '';
   position: absolute;
   top: 50%;
-  left: -10px; /* Adjust the value to create a gap */
+  left: -10px; 
   transform: translateY(-50%);
   width: 20px;
   height: 10%;
@@ -58,11 +58,11 @@
 }
 
 .nav-link:hover {
-  padding-left: 50px; /* Adjust the value as needed */
+  padding-left: 50px; 
 }
 
 .nav-link:hover::before {
-  width: 30px; /* Adjust the value as needed */
+  width: 30px; 
 }
 
 .about-container {
