@@ -1,9 +1,11 @@
+import React from 'react';
+
+import '../../App.css';
+
 const About = () => {
     return (
-      <div>
-        <div style={{ marginBottom: '20px' }}>
-          <h3>About Me</h3>
-        </div>
+      <div className="about-container" style={{ marginBottom: '200px' }}>
+        <h3>About Me</h3>
         <p>
           As a recent graduate in Front-End web development, I am excited to kickstart 
           my new career and contribute my skills and creativity to the world of digital 
