@@ -68,3 +68,20 @@
 .about-container {
   margin-bottom: 200px !important;
 }
+.experience-item {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.date {
+  flex: 0 0 150px; /* Adjust the width as needed */
+  font-weight: bold;
+}
+
+.description {
+  flex: 1;
+}
+
+.description h3 {
+  margin-top: 0;
+}
