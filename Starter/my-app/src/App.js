@@ -16,7 +16,7 @@ const App = () => {
         {/* Left Side */}
         <div
           style={{
-            flex: 1,
+            flex: 0.75,
             width: '300px',
             backgroundColor: '#f2f2f2',
             overflow: 'hidden',

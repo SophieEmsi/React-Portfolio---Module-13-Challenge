@@ -74,7 +74,7 @@
 }
 
 .date {
-  flex: 0 0 150px; /* Adjust the width as needed */
+  flex: 0 0 150px; 
   font-weight: bold;
 }
 
@@ -85,3 +85,33 @@
 .description h3 {
   margin-top: 0;
 }
+.portfolio-thumbnail {
+  width: 200px; 
+  height: auto; 
+}
+
+.portfolio-item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 20px; 
+  align-items: start;
+}
+
+.portfolio-heading {
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+
+.portfolio-item {
+  margin-bottom: 20px;
+}
+
+.portfolio-description {
+  margin-bottom: 10px;
+}
+
+.portfolio-links {
+  margin-top: 10px;
+}
+
+
