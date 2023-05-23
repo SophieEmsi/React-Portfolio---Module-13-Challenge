@@ -1,9 +1,9 @@
-import logo from './logo.svg';
+
 import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import { Nav } from 'react-bootstrap';
-import Home from './components/pages/home';
+
 import About from './components/pages/about';
 import Experience from './components/pages/experience';
 import Portfolio from './components/pages/portfolio';
@@ -18,7 +18,7 @@ const App = () => {
           style={{
             flex: 0.75,
             width: '300px',
-            backgroundColor: '#f2f2f2',
+            backgroundColor: '#1e1e1e',
             overflow: 'hidden',
             paddingTop: '80px',
             borderRight: '1px solid black',
@@ -31,7 +31,7 @@ const App = () => {
             <p>I am a newly graduated bootcamp student looking for a junior or internship role</p>
           </header>
           <Nav defaultActiveKey="/" className="flex-column">
-            <Nav.Link as={Link} to="/" eventKey="/" className="nav-link" style={{ marginBottom: '10px' }}>Home</Nav.Link>
+
             <Nav.Link as={Link} to="/about" eventKey="/about" className="nav-link" style={{ marginBottom: '10px' }}>About</Nav.Link>
             <Nav.Link as={Link} to="/experience" eventKey="/experience" className="nav-link" style={{ marginBottom: '10px' }}>Experience</Nav.Link>
             <Nav.Link as={Link} to="/portfolio" eventKey="/portfolio" className="nav-link" style={{ marginBottom: '10px' }}>Portfolio</Nav.Link>
@@ -45,11 +45,12 @@ const App = () => {
             backgroundColor: '#fff',
             overflowY: 'scroll',
             padding: '50px',
-            marginBottom: '80px', marginTop: '50px' 
+            marginBottom: '80px',
+            marginTop: '50px',
           }}
         >
           <Routes>
-            <Route path="/" element={<Home />} />
+          
             <Route path="/about" element={<About />} />
             <Route path="/experience" element={<Experience />} />
             <Route path="/portfolio" element={<Portfolio />} />

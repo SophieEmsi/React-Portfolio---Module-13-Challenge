@@ -72,8 +72,8 @@ const Portfolio = () => {
             <h4>{project.title}</h4>
             <p>{project.description}</p>
             <div className="portfolio-links">
-              <a href={project.url} target="_blank" rel="noopener noreferrer">View Project</a>
-              <a href={project.url2} target="_blank" rel="noopener noreferrer">View Repo</a>
+              <a href={project.url} target="_blank" rel="noopener noreferrer" className="portfolio-link">View Project</a>
+              <a href={project.url2} target="_blank" rel="noopener noreferrer" className="portfolio-link">View Repo</a>
             </div>
           </div>
         </div>
