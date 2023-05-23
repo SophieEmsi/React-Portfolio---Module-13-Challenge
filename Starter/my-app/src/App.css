@@ -21,8 +21,9 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: #ffffff; 
+  color: #d01818; 
 }
+
 
 
 .App-link {
@@ -54,7 +55,7 @@
   transform: translateY(-50%);
   width: 20px;
   height: 10%;
-  background-color: black;
+  background-color: #3fcbd1;
   transition: width 0.3s;
 }
 
@@ -67,7 +68,7 @@
 }
 
 .about-container {
-  margin-bottom: 200px !important;
+  margin-bottom: 50px !important;
 }
 .experience-item {
   display: flex;
@@ -127,7 +128,7 @@
 }
 
 .icon {
-  color: #3f51b5; 
+  color: #3fcbd1; 
   font-size: 24px;
 }
 
@@ -148,7 +149,7 @@
 
 .contact-form button[type="submit"] {
   margin-top: 10px;
-  background-color: #ff0000;
+  background-color: #3fcbd1;
   color: #ffffff;
 }
 

@@ -25,24 +25,24 @@ const App = () => {
             padding: '50px',
           }}
         >
-          <header style={{ marginBottom: '80px', marginTop: '50px' }}>
-            <h1>Sophie McNally</h1>
-            <h2>Front-End Web Developer</h2>
-            <p>I am a newly graduated bootcamp student looking for a junior or internship role</p>
-          </header>
+          <header style={{ marginBottom: '80px', marginTop: '50px', color: '#3fcbd1' }}>
+    <h1>Sophie McNally</h1>
+    <h2>Front-End Web Developer</h2>
+    <p>I am a newly graduated bootcamp student looking for a junior or internship role</p>
+  </header>
           <Nav defaultActiveKey="/" className="flex-column">
 
-            <Nav.Link as={Link} to="/about" eventKey="/about" className="nav-link" style={{ marginBottom: '10px' }}>About</Nav.Link>
-            <Nav.Link as={Link} to="/experience" eventKey="/experience" className="nav-link" style={{ marginBottom: '10px' }}>Experience</Nav.Link>
-            <Nav.Link as={Link} to="/portfolio" eventKey="/portfolio" className="nav-link" style={{ marginBottom: '10px' }}>Portfolio</Nav.Link>
-            <Nav.Link as={Link} to="/contact" eventKey="/contact" className="nav-link" style={{ marginBottom: '10px' }}>Contact</Nav.Link>
+            <Nav.Link as={Link} to="/about" eventKey="/about" className="nav-link" style={{ marginBottom: '10px', color: '#3fcbd1' }}>About</Nav.Link>
+            <Nav.Link as={Link} to="/experience" eventKey="/experience" className="nav-link" style={{ marginBottom: '10px', color: '#3fcbd1' }}>Experience</Nav.Link>
+            <Nav.Link as={Link} to="/portfolio" eventKey="/portfolio" className="nav-link" style={{ marginBottom: '10px', color: '#3fcbd1' }}>Portfolio</Nav.Link>
+            <Nav.Link as={Link} to="/contact" eventKey="/contact" className="nav-link" style={{ marginBottom: '10px', color: '#3fcbd1' }}>Contact</Nav.Link>
           </Nav>
         </div>
         {/* Right Side */}
         <div
           style={{
             flex: 1,
-            backgroundColor: '#fff',
+            backgroundColor: 'white',
             overflowY: 'scroll',
             padding: '50px',
             marginBottom: '80px',

@@ -45,7 +45,8 @@ const Experience = () => {
         <h3 style={{ marginBottom: '25px' }}>Full CV</h3>
         <p>
           For my complete work history and qualifications, please refer to my{' '}
-          <Link to="/cv">Full CV</Link>.
+          <a href={require('../../assets/CV - Sophie McNally.docx.pdf')} target="_blank" rel="noopener noreferrer">Full CV</a>
+
         </p>
       </div>
     </div>
